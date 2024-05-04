@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>User Admin Auth :: User</title>
+        <title>User Admin Auth :: Admin</title>
         <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     </head>
     <body class="bg-light">
@@ -28,7 +28,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <form action="{{route('account.authenticate')}}"method="post">
+                                <form action="{{route('admin.authenticate')}}"method="post">
                                     @csrf
                                     <div class="row gy-3 overflow-hidden">
                                         <div class="col-12">
